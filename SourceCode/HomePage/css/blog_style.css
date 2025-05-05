@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+body {
+  background-color: #b2d4f57b;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 5%;
+  height: 8%;
+  width: 100vw;
+  z-index: 10;
+  position: absolute;
+  font-size: 17px;
+  font-weight: 2000;
+  color: black;
+}
+
+.header svg {
+  display: none;
+}
+.logo img {
+  width: 50%;
+}
+.navelements a {
+  margin: 0 1.2rem;
+  color: #082717;
+}
+.navelements a:hover {
+  color: #0e9dea;
+  font-size: 19px;
+}
+
+.blog_hero {
+  width: 100vw;
+  height: 40vh;
+  margin-bottom: 7%;
+  position: relative;
+  background-image: linear-gradient(
+      to left,
+      rgba(64, 112, 244, 0.5),
+      rgba(64, 112, 244, 0.5)
+    ),
+    url("5555.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.blog_hero h1 {
+  position: absolute;
+  font-size: 100px;
+  color: whitesmoke;
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  bottom: 30%;
+}
+
+.catchy_blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 0%;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  padding: 0 5%;
+  margin: 0 5%;
+  width: 90%;
+  text-align: start;
+  margin-bottom: 5%;
+  background-color: #4646460d;
+  border-radius: 15px;
+}
+
+.article1 :first-child {
+  margin-top: 1rem;
+}
+.article1 :last-child {
+  margin-bottom: 1rem;
+}
+
+.article1 img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+.article1 h1 {
+  width: 95%;
+  padding: 0 1rem;
+  color: #017eeb;
+  font-size: 40px;
+}
+
+.article1 h2 {
+  width: 95%;
+  padding: 0 1rem;
+  font-size: 28px;
+  color: #4c7ff7ae;
+}
+.article1 h3 {
+  width: 95%;
+  padding: 0 2rem;
+
+  font-size: 20px;
+}
+.article1 p {
+  width: 95%;
+  padding: 0 2.5rem;
+  font-size: medium;
+}
+.article1:nth-child(3) {
+  padding: 0;
+}
+.article1 .Conclusion {
+  color: #1a188d;
+  font-size: 40px;
+}
+/* =================================== */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #95f6ff;
+  padding: 2rem;
+  margin-top: 5%;
+  font-family: "Roboto";
+}
+
+.social_media a {
+  font-size: 25px;
+  margin: 0 0.5rem;
+  color: #006ece;
+}
+
+.social_media a:hover {
+  color: #0059a6;
+}
+.copyrights p {
+  font-size: 15px;
+}
+/* ============================ */
+
+@media screen and (max-width: 850px) {
+  nav {
+    display: none;
+  }
+  .header svg {
+    display: block;
+    margin-right: 10px;
+  }
+  .article1 h1 {
+    width: 95%;
+    padding: 0 1rem;
+    color: #017eeb;
+    font-size: 30px;
+  }
+
+  .article1 h2 {
+    width: 95%;
+    padding: 0 1rem;
+    font-size: 20px;
+    color: #4c7ff7ae;
+  }
+  .article1 h3 {
+    width: 95%;
+    padding: 0 2rem;
+
+    font-size: 15px;
+  }
+  .article1 p {
+    width: 95%;
+    padding: 0 2.5rem;
+    font-size: small;
+  }
+
+  .article1 .Conclusion {
+    color: #1a188d;
+    font-size: 30px;
+  }
+
+  .social_media a {
+    font-size: 20px;
+    margin: 0 0.2rem;
+    color: #006ece;
+  }
+}
+@media screen and (max-width: 500px) {
+  .blog_hero {
+    height: 25vh;
+  }
+  .blog_hero h1 {
+    font-size: 70px;
+    top: 20%;
+    bottom: 20%;
+  }
+  .article1 h1 {
+    width: 95%;
+    padding: 0 1rem;
+    color: #017eeb;
+    font-size: 25px;
+  }
+
+  .article1 h2 {
+    width: 95%;
+    padding: 0 1rem;
+    font-size: 15px;
+    color: #4c7ff7ae;
+  }
+  .article1 h3 {
+    width: 95%;
+    padding: 0 2rem;
+
+    font-size: 11px;
+  }
+  .article1 p {
+    width: 95%;
+    padding: 0 2.5rem;
+    font-size: x-small;
+  }
+
+  .article1 .Conclusion {
+    color: #1a188d;
+    font-size: 25px;
+  }
+
+  .copyrights p {
+    font-size: 10px;
+  }
+
+  .social_media a {
+    font-size: 15px;
+    margin: 0 0.2rem;
+    color: #006ece;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+}
