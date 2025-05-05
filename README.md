@@ -86,8 +86,4 @@ MedZ Help differentiates itself by prioritizing accessibility and user-friendlin
 Common post-consultation questions revolve around medication management, potential side effects, follow-up care, and lifestyle modifications. MedZ Help addresses these inquiries with detailed FAQs and expert advice.
 # 5. How often will people visit the website?
 Visitors are encouraged to visit MedZ Help as often as needed.
-# 6. Site maps:
 
-Replace /public/assets/IMAGES/Site_maps.png your site maps image path.
-
-![Site maps](/Public/Assets/Images/Sitemap.png)
